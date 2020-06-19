@@ -1,7 +1,22 @@
 {
   "name": "monsters-rolodex",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "description": "Website created with React",
+  "main": "src/index.js",
   "private": true,
+  "homepage": "https://aleksandr-e-lebedev.github.io/monsters-rolodex",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleksandr-e-lebedev/monsters-rolodex.git"
+  },
+  "keywords": [
+    "React"
+  ],
+  "author": "Aleksandr Lebedev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aleksandr-e-lebedev/monsters-rolodex/issues"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "4.2.4",
     "@testing-library/react": "9.5.0",
