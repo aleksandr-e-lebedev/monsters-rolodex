@@ -1,13 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import Card from '../card/card';
+
 import './card-list.css';
 
 const CardList = ({ monsters }) => {
   return (
     <div className="card-list">
       {monsters.map((monster) => (
-        <h2 key={monster.id}> {monster.name} </h2>
+        <Card key={monster.id} monster={monster} />
       ))}
     </div>
   );
