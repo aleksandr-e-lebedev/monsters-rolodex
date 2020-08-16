@@ -1,68 +1,69 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Monsters Rolodex
 
-## Available Scripts
+Версия: v1.0.0
 
-In the project directory, you can run:
+[Демо](https://aleksandr-e-lebedev.github.io/monsters-rolodex/)
+
+## Описание
+
+Данный проект реализован в рамках учебного курса [Complete React Developer in 2020 (w/ Redux, Hooks, GraphQL)](https://www.udemy.com/course/complete-react-developer-zero-to-mastery/) на [Udemy](https://www.udemy.com/) для приобретения навыка создания современных веб-приложений с использованием [React](https://reactjs.org/).
+
+## Используемые технологии
+
+HTML, CSS, JavaScript (ES6+), React, Git, Webpack
+
+## Используемые API
+
+1. [JSONPlaceholder](https://jsonplaceholder.typicode.com/),
+2. [RoboHash](https://robohash.org/).
+
+## Функциональные возможности
+
+1. фильтрация списка карточек с помощью поисковой строки.
+
+## Как развернуть проект
+
+Клонируйте репозиторий:
+
+`git clone https://github.com/aleksandr-e-lebedev/monsters-rolodex.git`
+
+Для установки необходимых пакетов выполните:
+
+`npm install`
+
+## Доступные скрипты
+
+Находясь в директории проекта, вы можете выполнить:
 
 ### `npm start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Запускает приложение в режиме разработки.<br />
+Для просмотра в браузере перейдите по адресу [http://localhost:3000](http://localhost:3000).
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Если вы сделаете какие-либо изменения в коде, страница будет перезагружена.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Запускает тестирование приложения.<br />
+В рамках данного учебного проекта тестирование не реализовано.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Собирает приложение для продакшена в папку `build`.<br />
+Сборка минимизирована и оптимизирована для лучшей производительности, а имена файлов содержат хэши.<br />
+Приложение готово для деплоя.<br />
 
 ### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**Примечание: операцию `eject` нельзя отменить!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Если вас не устраивает инструмент сборки и варианты конфигурации, вы в любое время можете «извлечь» конфигурацию.<br />
+Скрипт скопирует все файлы конфигурации, а также такие зависимости, как Webpack, Babel, ESLint и т.д., прямо в ваш проект, чтобы вы имели полный контроль над ними.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### `npm run lint`
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Запускает ESLint.
 
-## Learn More
+### `npm run deploy`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Для деплоя приложения на GitHub Pages.
